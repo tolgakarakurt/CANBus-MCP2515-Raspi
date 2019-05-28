@@ -8,4 +8,4 @@ MCP2515 CANBus module installation on RaspberryPi
 Environmental Setup     
 
 ## High Level Design 
-Raspi1 --<SPIcomm>-- CanModule1 ==<CANbus H,L>== CanModule2 --<SPIComm>-- Raspi2
+Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
