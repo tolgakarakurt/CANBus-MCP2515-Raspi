@@ -1,5 +1,5 @@
 # CANBus-MCP2515-Raspi
-MCP2515 CANBus module installation on RaspberryPi
+MCP2515 CANBus module installation and running a basic code on RaspberryPi
 
 ## Project Items  
 1 RaspberryPi 3 Model B+ (Raspi1)   
@@ -13,4 +13,8 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 
 ## Wiring Diagrams
 **MCP2515**
+
+## Installation
+>
+>
 
