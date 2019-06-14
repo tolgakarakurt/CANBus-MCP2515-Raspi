@@ -15,6 +15,6 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 **MCP2515**
 
 ## Installation
->
->
+>>s
+>>f
 
