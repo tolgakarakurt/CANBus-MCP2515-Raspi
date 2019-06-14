@@ -18,3 +18,29 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 >>ss
 >>f
 
+Welcome to the CANBus-MCP2515-Raspi wiki!
+
+# MCP2515 CANBus module installation on RaspberryPi  
+## Goal   
+It is aimed to build CANBus communication bus between two Raspberry Pi boards. This setup is accomplished with the Microchip's stand-alone MCP2515 CAN controller. Therefore, a well-known CAN module is used instead of making a pcb with this chip.  
+    
+## Project Items 
+ 
+> 1 RaspberryPi 3 Model B+ (Raspi1)  
+> 1 RaspberryPi 3 Model B v1.2 (Raspi2)  
+> 2 MCP2515 CAN Bus Module TJA1050 Receiver SPI (CanModule1, CanModule2)  
+> Environmental Setup  
+
+## High Level Design  
+Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2  
+
+## Learn More  
+**RaspberryPi 3 Model B+**     
+> https://en.wikipedia.org/wiki/Raspberry_Pi    
+> https://pinout.xyz/  
+
+**MCP2515 Can Controller** 
+> https://www.microchip.com/wwwproducts/en/en010406  
+> http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf  
+> https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf  
+
