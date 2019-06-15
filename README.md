@@ -15,11 +15,15 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 **MCP2515**
 ![Test Image 2](https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/CANBus-MCP2515-MCP2515%20Schematic.png)
 **Note:** Modification is required! Since TJA1050 CAN Transciver operates at 4.75V~5.25V (Typically @5V), it is necessary to add Vdd 5V input pin to the module besides Vcc 3.3V. It is explained how the MCP2515 CAN module is adjusted below along with the pictures. 
-![Test Image 3](https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/1.jpeg = 250x250)
-<img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/1.jpeg" width="250">
-![Test Image 4](=250x250)
-![Test Image 5](=250x250)
-![Test Image 6](=250x250)
+<img1 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/1.jpeg" width="250">
+<img2 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/2.jpeg" width="250">
+<img3 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/3.jpeg" width="250">
+<img4 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/4.jpeg" width="250">
+<img6 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/6.jpeg" width="250">
+<img7 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/7.jpeg" width="250">
+<img8 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/8.jpeg" width="250">
+<img9 src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/9.jpeg" width="250">
+
 ## Installation
 >>ss
 >>f
