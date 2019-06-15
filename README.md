@@ -29,14 +29,23 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 **Download Updates**  
 > sudo apt-get update  
 > sudo apt-get upgrade  
+> sudo reboot  
 
 **Enable SPI**  
 Applications Menu --> Preferences --> Raspberry Pi Configuration --> Interfaces --> Select SPI Enabled  
 OR
-> sudo raspi-config --> 5 nterfacing Options --> P4 SPI --> Yes --> The SPI interface is enabled --> Finish  
+> sudo raspi-config --> 5 Interfacing Options --> P4 SPI --> Yes --> The SPI interface is enabled --> Finish  
 
-> 
-> sudo nano /boot/config.txt  
+**Check Kernel version**  
+>uname -a
+Linux raspberrypi 4.19.42-v7+ 1219 SMP Tue May 14 21:20:58 BST 2019 armv71 GNU/Linux
+For later kernels (4.4.x onwards)  
+> sudo nano /boot/config.txt 
+Add the following setup at the end of the file:
+
+dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=24  
+dtoverlay=spi0-hw-cs  
+
 
 
 
