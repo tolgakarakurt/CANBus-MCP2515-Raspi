@@ -31,7 +31,10 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 > sudo apt-get upgrade  
 
 **Enable SPI**  
-Applications Menu --> Preferences --> Raspberry Pi COnfiguration --> Interfaces --> Select SPI Enabled or  
+Applications Menu --> Preferences --> Raspberry Pi Configuration --> Interfaces --> Select SPI Enabled
+OR
+> sudo raspi-config --> 5 nterfacing Options --> P4 SPI --> Yes --> The SPI interface is enabled --> Finish
+**
 > 
 > sudo nano /boot/config.txt  
 
