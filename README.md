@@ -13,7 +13,7 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 
 ## Wiring Diagrams
 **MCP2515**
-![Test Image 2](https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/CANBus-2MCP2515.png)
+![Test Image 2](https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/CANBus-MCP2515-MCP2515%20Schematic.png)
 ## Installation
 >>ss
 >>f
