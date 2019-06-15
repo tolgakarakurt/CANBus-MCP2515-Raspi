@@ -29,6 +29,7 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 **Make Updates**  
 > sudo apt-get update  
 > sudo apt-get upgrade  
+
 **Enable SPI**  
 > sudo nano /boot/config.txt  
 
