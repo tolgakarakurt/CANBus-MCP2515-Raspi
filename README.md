@@ -75,10 +75,10 @@ Full circuit wiring must be completed before checking the related folder. And do
 
 sys --> bus --> spi --> devices --> spi0.0 --> net --> can0  
 OR
-> ls /sys/bus/spi/devices/spi0.0  
+> ls /sys/bus/spi/devices/spi0.0/net  
 
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
-<span style="color:red">some **This is Red Bold.** text</span>
+<img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/ls_can0.jpeg" width="550">  
+
 
 
 
