@@ -9,7 +9,7 @@ It is aimed to build CANBus communication between two Raspberry Pi boards. This 
 
 ## High Level Design 
 Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
-![Test Image 1](https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/CANBus-2MCP2515.png)
+![Test Image 1](https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/CANBus-2MCP2515-Page-1.png)
 
 ## Wiring Diagrams
 **MCP2515**
