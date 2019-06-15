@@ -84,14 +84,14 @@ OR
 RasPi1
 > sudo ip link set can0 up type can bitrate 500000  
 
->candump can0  
+> cansend can0 100#12FF34AA56DD66  
 
 <img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/RasPi1_cansend.jpeg" width="550">  
 
 Raspi2   
 > sudo ip link set can0 up type can bitrate 500000  
-
-> cansend can0 100#12FF34AA56DD66  
+ 
+>candump can0  
 
 <img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/RasPi2_candump.jpeg" width="550">  
 
