@@ -58,6 +58,7 @@ dtoverlay=spi-dma
 <img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/gpioreadall.jpeg" width="550">
 
 Save: CTRL + X --> Enter  
+> sudo reboot  
 
 **Install Can-utils:**
 > sudo apt-get install autoconf autogen  
@@ -69,6 +70,7 @@ Save: CTRL + X --> Enter
 > make  
 > make install (with root privileges)  
 > sudo apt-get install can-utils
+> sudo reboot  
 
 **can0 Availability Check**  
 Full circuit wiring must be completed before checking the related folder. And do not miss having common ground, since there is not any additional GND pin for Can transmission lines (CAN_H, CAN_L). 
@@ -94,13 +96,6 @@ Raspi2
 >candump can0  
 
 <img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/RasPi2_candump.jpeg" width="550">  
-
-
-
-
-    
-  
-  
 
 ## Learn More  
 **RaspberryPi 3 Model B+**     
