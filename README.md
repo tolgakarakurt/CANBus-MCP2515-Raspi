@@ -26,9 +26,13 @@ Raspi1 --(SPIcomm)-- CanModule1 ==<CANbus H,L>== CanModule2 --(SPIComm)-- Raspi2
 > <img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/9.jpeg" width="150">  8.Overall board with modification  
 
 ## Installation
->> **Make Updates**
-> sudo apt-get update
-> sudo apt-get upgrade
+>> **Make Updates**  
+> sudo apt-get update  
+> sudo apt-get upgrade  
+>> **Enable SPI  
+> sudo nano /boot/config.txt  
+
+
 
     
   
