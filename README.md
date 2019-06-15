@@ -42,19 +42,29 @@ OR
 > uname -a
 
 Linux raspberrypi 4.19.42-v7+ 1219 SMP Tue May 14 21:20:58 BST 2019 armv71 GNU/Linux  
+
 **Modify config.txt:**  
-For later kernels (4.4.x onwards)  
+For later kernels (4.4.x onwards)
+
 > sudo nano /boot/config.txt  
 
 Add the following setup at the end of the file:
 
 dtparam=spi=on
 dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25  
-dtoverlay=spi-bcm2835
+dtoverlay=spi-bcm2835  
 dtoverlay=spi-dma  
 
 Save: CTRL + X --> Enter  
 
+**Install Can-utils:**
+> sudo apt-get install autoconf autogen  
+> git clone https://github.com/linux-can/can-utils.git  
+> cd can-utils  
+> ./autogen.sh  
+> ./configure  
+> make  
+> make install (with root privileges)
 
 
 
