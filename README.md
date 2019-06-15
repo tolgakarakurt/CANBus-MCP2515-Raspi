@@ -70,6 +70,14 @@ Save: CTRL + X --> Enter
 > make install (with root privileges)  
 > sudo apt-get install can-utils
 
+**can0 Availability Check**  
+Full circuit wiring must be completed before checking the related folder. And do not miss having common ground, since there is not any additional GND pin for Can transmission lines (CAN_H, CAN_L). 
+
+sys --> bus --> spi --> devices --> spi0.0 --> net --> can0  
+OR
+> ls /sys/bus/spi/devices/spi0.0  
+
+Some Markdown text with <span style="color:blue">some *blue* text</span>.
 
 
 
