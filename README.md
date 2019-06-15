@@ -59,12 +59,15 @@ Save: CTRL + X --> Enter
 
 **Install Can-utils:**
 > sudo apt-get install autoconf autogen  
+> sudo apt-get install libtool  
 > git clone https://github.com/linux-can/can-utils.git  
 > cd can-utils  
 > ./autogen.sh  
 > ./configure  
 > make  
-> make install (with root privileges)
+> make install (with root privileges)  
+> sudo apt-get install can-utils
+
 
 
 
