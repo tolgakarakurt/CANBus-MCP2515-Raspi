@@ -43,6 +43,7 @@ Linux raspberrypi 4.19.42-v7+ 1219 SMP Tue May 14 21:20:58 BST 2019 armv71 GNU/L
 
 For later kernels (4.4.x onwards)  
 > sudo nano /boot/config.txt  
+
 Add the following setup at the end of the file:
 
 dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=24  
