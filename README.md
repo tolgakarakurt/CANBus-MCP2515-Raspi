@@ -79,7 +79,14 @@ OR
 
 <img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/ls_can0.jpeg" width="550">  
 
+**Test: Sending data from RasPi1 to RasPi2**
+RasPi1
+> sudo ip link set can0 up type can bitrate 500000
+>candump can0  
 
+Raspi2  
+> sudo ip link set can0 up type can bitrate 500000
+> cansend can0 100#12FF34AA56DD66  
 
 
 
