@@ -81,10 +81,12 @@ OR
 
 <img src="https://github.com/tolgakarakurt/CANBus-MCP2515-Raspi/blob/master/ls_can0.jpeg" width="550">  
 If there is not can0 folder in the specified directory, check config.txt and ensure that:  
+
 dtparam=spi=on  
 dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25  
 dtoverlay=spi-bcm2835  
 dtoverlay=spi-dma  
+
 AND check the connections in the circuit.  
 
 **Test: Sending data from RasPi1 to RasPi2**  
