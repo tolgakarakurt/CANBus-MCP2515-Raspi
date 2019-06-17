@@ -50,7 +50,7 @@ For later kernels (4.4.x onwards)
 
 Add the following setup at the end of the file:
 
-dtparam=spi=on
+dtparam=spi=on  
 dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25  
 dtoverlay=spi-bcm2835  
 dtoverlay=spi-dma  
