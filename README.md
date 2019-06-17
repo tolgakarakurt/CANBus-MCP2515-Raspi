@@ -68,8 +68,8 @@ Save: CTRL + X --> Enter
 > ./autogen.sh  
 > ./configure  
 > make  
-> make install (with root privileges)  
-> sudo apt-get install can-utils
+> sudo make install  
+> sudo apt-get install can-utils  
 > sudo reboot  
 
 **can0 Availability Check**  
